@@ -1,0 +1,40 @@
+
+body {
+	background: url('../images/dev.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	background: rgba(9, 132, 227, 0.29);
+	width: 424px;
+	color: #dfe6e9;
+}
+
+h1 {
+	font-size: 80px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+	background-color: rgba(129, 236, 236, 0.56);
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+img {
+	width: 48px;
+	height: 48px;	
+}
+
+#oneMonth {
+	width: 70px;
+	height: 40px;
+}
